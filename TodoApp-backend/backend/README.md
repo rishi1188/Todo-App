@@ -122,12 +122,3 @@ src/
     tasks.controller.ts              REST endpoints (all guarded)
     tasks.module.ts
 ```
-
-## What's next
-
-With this running, the mobile app's next phase is:
-- `services/taskService.ts` — calls these endpoints, attaching the
-  Firebase ID token as a Bearer header
-- Replacing the placeholder `TaskListScreen` with the real UI (fetch,
-  display, filter/sort controls, swipe-to-delete)
-- `AddEditTaskScreen` for creating/editing tasks
